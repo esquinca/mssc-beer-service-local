@@ -1,5 +1,6 @@
 package guru.springframework.msscbeerservice.services.inventory;
 
+import guru.springframework.msscbeerservice.web.mappers.services.inventory.BeerInventoryService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
