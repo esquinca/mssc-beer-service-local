@@ -11,9 +11,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import java.util.List;
 import java.util.UUID;
 
-/**
- * Created by jt on 3/7/20.
- */
+
 @FeignClient(name = "inventory-service", fallback = InventoryServiceFeignClientFailover.class, configuration = FeignClientConfig.class)
 public interface InventoryServiceFeignClient {
 

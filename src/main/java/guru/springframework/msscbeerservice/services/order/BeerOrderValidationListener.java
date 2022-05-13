@@ -8,9 +8,7 @@ import org.springframework.jms.annotation.JmsListener;
 import org.springframework.jms.core.JmsTemplate;
 import org.springframework.stereotype.Component;
 
-/**
- * Created by jt on 12/2/19.
- */
+
 @RequiredArgsConstructor
 @Component
 public class BeerOrderValidationListener {
